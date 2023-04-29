@@ -4,4 +4,36 @@
   background-color: green;
 }
 
+#container-two {
+  background-color: gray;
+}
+
+#container-three {
+  display: flex;	
+  background-color: red;
+  flex-direction: row;
+}
+
+#container-four {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+}
+
+#container-five {
+  background-color: gray;
+}
+
+#container-six {
+  background-color: white;
+}
+
+#container-seven {
+  background-color: red;
+}
+
+#container-eight {
+  background-color: black;
+  color: white;
+}
 /* @media (max- will come back to this */
