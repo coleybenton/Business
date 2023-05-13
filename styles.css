@@ -1,17 +1,24 @@
+/*Flex Containers for each area*/
 #container {
   display: flex;
   flex-direction: row;
   background-color: green;
+  border: 5px solid red;
+  align-items: center;
+  justify-content: center;
 }
 
 #container-two {
-  background-color: gray;
+; 
 }
 
 #container-three {
   display: flex;	
   background-color: red;
   flex-direction: row;
+  border: 5px solid blue;
+  justify-content: center;
+  gap: 30px;
 }
 
 #container-four {
@@ -37,3 +44,17 @@
   color: white;
 }
 /* @media (max- will come back to this */
+/*Individual Classes */
+
+.gray-border {
+  border: 5px solid gray;
+}
+
+.black-border {
+  border: 5px solid black;
+}
+
+.img-hero {
+  height: auto;
+  max-width: 100%;
+}
